@@ -551,9 +551,9 @@ const Home = () => {
               ✦ REVOLUTIONARY FEATURES ✦
             </motion.span>
             <h2 className="text-6xl md:text-8xl font-black text-gray-900 mb-6">
-              Build for{' '}
+              Next-Gen{' '}
               <span className="bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">
-                Students
+                Campus Platform
               </span>
             </h2>
             <p className="text-2xl text-gray-600 max-w-3xl mx-auto font-light tracking-wide">
