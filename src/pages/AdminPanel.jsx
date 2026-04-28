@@ -64,6 +64,7 @@ import {
 } from 'recharts'
 import { useAuth } from '../hooks/useAuth'
 import { useUsers } from '../hooks/useUsers'
+import StatsChart from '../components/StatsChart'
 import toast from 'react-hot-toast'
 
 const AdminDashboard = () => {
@@ -1614,6 +1615,12 @@ const AdminDashboard = () => {
                     Across all events
                   </p>
                 </div>
+              </div>
+
+              {/* User Growth Chart Card */}
+              <div className="bg-white rounded-xl p-6 shadow-sm">
+                <h3 className="text-lg font-semibold text-gray-900 mb-4">User Growth</h3>
+                <StatsChart />
               </div>
 
               {/* Charts Section */}

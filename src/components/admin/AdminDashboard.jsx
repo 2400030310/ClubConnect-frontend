@@ -1,6 +1,7 @@
 import React from 'react'
 import { useActivities } from '../../hooks/useActivities'
 import { useUsers } from '../../hooks/useUsers'
+import StatsChart from '../StatsChart'
 
 const AdminDashboard = () => {
   const { activities, loading } = useActivities()
@@ -29,6 +30,15 @@ const AdminDashboard = () => {
           <p className="text-sm font-medium text-foreground">Categories</p>
           <p className="text-xl font-bold text-primary">{loading ? '...' : categories}</p>
         </div>
+      </div>
+
+      <div className="mt-5">
+        <StatsChart />
+      </div>
+
+      <div className="card mt-5">
+        <h3>User Growth</h3>
+        <StatsChart />
       </div>
 
       <div className="mt-5">
