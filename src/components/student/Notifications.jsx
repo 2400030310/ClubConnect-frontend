@@ -19,7 +19,7 @@ const Notifications = () => {
       ...registrationNotes,
       {
         id: 'tip-1',
-        message: 'Keep your profile updated to receive personalized   suggestions.',
+        message: 'Keep your profile updated to receive personalized suggestions.',
         type: 'tip',
       },
     ]
